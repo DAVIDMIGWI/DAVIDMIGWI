@@ -2,7 +2,7 @@ Hi there! 👋
 
 I'm a passionate software developer and tech enthusiast based in Nairobi. Welcome to my GitHub profile! 🚀
 
-🔭 Currently Working On
+🔭 Currently Working On.
 - Exploring the depths of artificial intelligence and machine learning.
 - Building awesome web applications with cutting-edge technologies.
 
