@@ -17,9 +17,8 @@ jobs:
       uses: appleboy/ssh-action@v0.1.4
       with:
         host: ${{ secrets.185.206.147.145}}
-        username: ${{ secrets.root }}
-        key: ${{ secrets.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDExsB4jdfe9NVJu3ALK9ErJgoQ5Y9wljzUMCFzJ/5AI/WodbH6XjymQSCjz2AMvM91ranyNYMvk2mEqMKbBphkwqzKbXMfXJZYGwLpD5LgoIEc1Ws1HvWaZlbPoIYapr9H7Sc40iG7aXBJt+zkblN93LqiMT896Fz3vDj1knVb6tN0YCZSwJ3NMZhT8+katvt28qn1Kt/8zs73jckat3Ne2P3JLJ5T/ztbSsZgzRPUTcx6u5+I/+TZEtCrBRCeuek3mFCYP5bvqMzHoh4ZZcXyewKh4D5+AlkXWPuSFl4ndDQEXMT2O4bqoNaia5hK9YVqH7EKecEwOkHpMSn7v0QMmwiM/3HbQJKmEl5dUPMg34qb6T6t0zARe4V58Awz/a5jb8jZmfTHI2qsblnV9FmzSxmfYoXtZCH9pDTP7UGI93DohJGO4eKTVTWwbky54YHANB7D5FI7sZ/Mex+wWgpylgZ64VZ1gv2YogIuCZCiGAGh6HjweuvhvlDz9h0zXrM= davidmigwi@DAVIDs-MacBook-Pro.local}}
-        passphrase: ${{ secrets.}}
+        username: root
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           cd /var/www/davidmigwi
           git pull origin main
